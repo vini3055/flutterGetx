@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
             [
               ElevatedButton(
                 onPressed: () {
-                  Get.snackbar('title', 'message');
+                  Get.snackbar('title', 'new message');
                   },
                 child: Text('hello'),
               ),
